@@ -1,0 +1,60 @@
+footer {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-simple-style-washing-machine-purifier-appliance-poster-banner-image_193305.jpg);
+}
+
+.contenedor  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor__imagen{
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+@media screen and (min-width:320px) and (max-width:750px){
+    .titulo {
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 150px;
+        margin: 10px;
+        text-align: center;
+        text-decoration: underline;
+        background-image: url(https://img.freepik.com/vector-gratis/acuarela-mancha-arco-iris-colorido-abstracto-fondo-texturas_100956-523.jpg?size=626&ext=jpg);
+        background-size: 1500px;
+    }
+    
+    .menu {
+        text-align: center;
+        text-transform: capitalize;
+        word-spacing: 5px;
+    
+        .menu__inicio {
+            list-style: none;
+            border: 1px solid black;
+            padding: 5px 50px;
+            font: bold 14px verdana;
+            display: inline-block;
+            font-size: 30px;
+            background-color: white;
+            text-decoration: none;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+    }
+    
+    .slogan {
+        text-transform: capitalize;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        line-height: 50px;
+        letter-spacing: 3px;
+    }
+
+}

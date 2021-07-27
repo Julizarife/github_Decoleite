@@ -1,0 +1,73 @@
+html {
+    margin: auto;
+    padding: 0% auto;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 118, 1) 21%, rgba(0, 212, 255, 1) 58%);
+}
+
+.titulo {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.menu {
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 10px;
+}
+
+.menu li {
+    list-style: none;
+    border: 1px solid black;
+    padding: 5px 100px;
+    font: bold 14px verdana;
+    display: inline-block;
+    font-size: 20px;
+    background-color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+section {
+    border: 5px solid black;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url(https://fondosmil.com/fondo/20940.jpg);
+}
+
+.seccion1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    padding: 5px;
+
+}
+
+
+footer p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.mapa {
+    margin: 25px;
+    padding: 5px;
+}
