@@ -56,17 +56,19 @@ body {
     justify-content:center;
 }
 
-img {
+.imagenes {
     height: 40vh;
     width: 40vh;
     border: solid 10px black;
     transition: all 1.5s;
+   
 }
 
-img:hover {
+.imagenes:hover {
     height: 50vh;
     width: 50vh;
     animation: animacion 1s linear 3s infinite alternate;
+   
 
 }
 
@@ -128,17 +130,19 @@ justify-content: center;
         justify-content:center;
     }
 
-    div img {
+    .imagenes {
         height: 30vh;
         width: 30vh;
         border: solid 10px black;
         transition: all 1.5s;
+      
     }
     
-    img:hover {
+    .imagenes:hover {
         height: 40vh;
         width: 40vh;
         animation: animacion 1s linear 3s infinite alternate;
+     
     
     }
 
@@ -183,18 +187,20 @@ justify-content: center;
         justify-content:center;
     }
 
-    div img {
+    .imagenes {
         height: 250px;
         width: 250px;
         border: solid 10px black;
         transition: all 1.5s;
         margin: 5px;
+      
     }
     
-    div img:hover {
+    .imagenes:hover {
         height: 30vh;
         width: 30vh;
         animation: animacion 1s linear 3s infinite alternate;
+   
     
     }
 }
@@ -258,17 +264,19 @@ justify-content: center;
         justify-content:center;
     }
      
-    div img {
+    .imagenes {
         height: 40vh;
         width: 40vh;
         border: solid 10px black;
         transition: all 1.5s;
+   
     }
     
-    div img:hover {
+    .imagenes:hover {
         height: 50vh;
         width: 50vh;
         animation: animacion 1s linear 3s infinite alternate;
+    
     
     }
     
