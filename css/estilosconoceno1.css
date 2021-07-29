@@ -1,9 +1,4 @@
-* {
-    margin: 0% auto;
-    padding: 0%;
-    display: none;
-  }
-  
+ 
   body {
     background: #020024;
     background: linear-gradient(90deg, #020024 0%, #097976 21%, #00d4ff 58%);
@@ -69,7 +64,7 @@
     justify-content: center;
   }
   
-  img {
+  .imagenes {
     height: 333px;
     width: 333px;
     padding: 20px;
@@ -140,7 +135,7 @@
       justify-content: center;
     }
   
-    img {
+   .imagenes {
       height: 90px;
       width: 90px;
       padding: 5px;
@@ -213,7 +208,7 @@
       justify-content: center;
     }
   
-    img {
+    .imagenes {
       height: 170px;
       width: 170px;
       padding: 5px;
@@ -289,7 +284,7 @@
       justify-content: center;
     }
   
-    img {
+    .imagenes {
       height: 333px;
       width: 333px;
       padding: 20px;
