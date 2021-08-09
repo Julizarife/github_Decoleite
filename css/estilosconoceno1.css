@@ -5,14 +5,13 @@
   }
   
   .titulo {
-    font-style: italic;
+    font-style:italic;
     font-family: 'Times New Roman', Times, serif;
     font-size: 100px;
     margin: 10px;
     text-align: center;
     text-decoration: underline;
-  
-  }
+}
   
   .menu {
     text-align: center;
@@ -45,7 +44,7 @@
     text-decoration: underline;
   }
   
-  p {
+  .contacto{
     text-align: center;
     font-size: 25px;
     font-style: oblique;
@@ -116,7 +115,7 @@
       text-decoration: underline;
     }
   
-    p {
+    .contacto {
       text-align: center;
       font-size: 15px;
       font-style: oblique;
@@ -189,7 +188,7 @@
       text-decoration: underline;
     }
   
-    p {
+    .contacto {
       text-align: center;
       font-size: 30px;
       font-style: oblique;
@@ -225,14 +224,13 @@
     }
   
     .titulo {
-      font-style: italic;
-      font-family: 'Times New Roman', Times, serif;
+      font-style:italic;
+      font-family:Georgia, 'Times New Roman', Times, serif;
       font-size: 100px;
       margin: 10px;
       text-align: center;
       text-decoration: underline;
-  
-    }
+  }
   
     .menu {
       text-align: center;
@@ -265,7 +263,7 @@
       text-decoration: underline;
     }
   
-    p {
+    .contacto{
       text-align: center;
       font-size: 25px;
       font-style: oblique;

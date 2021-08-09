@@ -112,17 +112,29 @@ footer {
 }
 
 .contenedor {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
   align-items: center;
+  justify-content: space-between;
 }
 
 .contenedor__imagen {
+  width: 40px;
+  height: 40px;
+  margin-left: 700px;
+  border: 2px solid black;
+}
+
+.link {
   width: 30px;
   height: 30px;
-  display: flex;
+  margin-right: 700px;
+}
+
+h2 {
+  text-align: center;
 }
 
 @media screen and (min-width: 320px) and (max-width: 750px) {
@@ -221,16 +233,25 @@ footer {
     background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-simple-style-washing-machine-purifier-appliance-poster-banner-image_193305.jpg);
   }
   .contenedor {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
     align-items: center;
+    justify-content: space-between;
   }
   .contenedor__imagen {
-    width: 25px;
-    height: 25px;
-    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+    border: 2px solid black;
+  }
+  .link {
+    font-size: 15px;
+    margin-right: 150px;
+  }
+  h2 {
+    text-align: center;
   }
 }
 
@@ -329,17 +350,18 @@ footer {
   footer {
     background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-simple-style-washing-machine-purifier-appliance-poster-banner-image_193305.jpg);
   }
-  .contenedor {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
   .contenedor__imagen {
-    width: 35px;
-    height: 35px;
-    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-left: 300px;
+    border: 2px solid black;
+  }
+  .link {
+    font-size: 30px;
+    margin-right: 300px;
+  }
+  h2 {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

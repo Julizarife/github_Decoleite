@@ -68,7 +68,7 @@ body {
     height: 50vh;
     width: 50vh;
     animation: animacion 1s linear 3s infinite alternate;
-   
+   transform: scale(1,1);
 
 }
 
@@ -142,6 +142,7 @@ justify-content: center;
         height: 40vh;
         width: 40vh;
         animation: animacion 1s linear 3s infinite alternate;
+        transform: scale(1,1);
      
     
     }
@@ -201,6 +202,7 @@ justify-content: center;
         height: 30vh;
         width: 30vh;
         animation: animacion 1s linear 3s infinite alternate;
+        transform: scale(1,1);
    
     
     }
@@ -277,7 +279,7 @@ justify-content: center;
         height: 50vh;
         width: 50vh;
         animation: animacion 1s linear 3s infinite alternate;
-    
+        transform: scale(1,1);
     
     }
     
